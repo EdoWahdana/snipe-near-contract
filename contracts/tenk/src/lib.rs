@@ -97,10 +97,10 @@ impl Contract {
     Self::new(
             owner_id,
             NFTContractMetadata {
-              name: String::from("NEARGotchi"),
-              symbol: String::from("NGO"),
+              name: String::from("SnipeNear"),
+              symbol: String::from("SNP"),
               base_uri: Some(String::from("https://gateway.pinata.cloud/ipfs/bafybeifm4vxq43hcvp6zovhtln56b2e5ldcvpmlfyucyvrypp5v6i2jk6y")),
-              icon: Some(String::from("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArwAAAK8CAYAAAANumxDAAAAAXNSR0IArs4c6QAAGMJJREFUeJzt3TFondmZx2F5sdhmIGw5WARtsTuwXBlcLjaoUSXCGobVNlaVxgMqUgyYCcMMxoPJINhiC0PUbKUhEC0BT6HKLgxjVA7YN4WTImKwGzfbuAkqvFWa5K55PffonqP/fZ768H3nu/fT1Y/TvJcevz55uwIAAKH+rvcGAADgPAleAACiCV4AAKIJXgAAogleAACiCV4AAKIJXgAAogleAACiCV4AAKIJXgAAogleAACiCV4AAKIJXgAAogleAACiCV4AAKIJXgAAogleAACiCV4AAKIJXgAAol3uvYFWnj560vR617c2m16vl5TPJeU5WvO5zJbyuaQ8R2s+l9lSPpeU52jN5zIfJ7wAAEQTvAAARBO8AABEE7wAAEQTvAAARBO8AABEE7wAAEQTvAAARBO8AABEG37SWnWySOuJIb3uO7rWk16YzXs/Fu/9Ynjvx+K9Xwzv/WI44QUAIJrgBQAgmuAFACCa4AUAIJrgBQAgmuAFACCa4AUAIJrgBQAgmuAFACBat0lro0/4qN539OdorddzpEz8Gf198d7P5r2fz+jvi/d+Nu/9fEZ/X5btvXfCCwBANMELAEA0wQsAQDTBCwBANMELAEA0wQsAQDTBCwBANMELAEA0wQsAQLRuk9ZaS5kE0lrrSSqtP+fWE3WW7fv13s/mvc/mvZ/Ne5/Nez8fJ7wAAEQTvAAARBO8AABEE7wAAEQTvAAARBO8AABEE7wAAEQTvAAARBO8AABEG37S2uiTXpZN6wkuvrfZvPdj8d4vhvd+LN77xfDeL4YTXgAAogleAACiCV4AAKIJXgAAogleAACiCV4AAKIJXgAAogleAACiCV4AAKJdevz65G2PG7eeLNJLynNU9ZrgsmyfX6/nvXP7QZf7cjHtH+yV1o3+3lelPEeV3/v5pLwvKc/hhBcAgGiCFwCAaIIXAIBoghcAgGiCFwCAaIIXAIBoghcAgGiCFwCAaIIXAIBo3SatVfWa9FI1+mSR1p9fr+dNeY6q6vM+PJo2ve+Ne9eaXo/F2J1sd7nvJx/f73LfmzuTLvdN+d2o8nu/GDpnMZzwAgAQTfACABBN8AIAEE3wAgAQTfACABBN8AIAEE3wAgAQTfACABBN8AIAEG34SWuQ5M7tB02vt9544tTZizdNr8d8Vj/6oLRubWO16X1bT247nB43vd53X37f9Hr7B3tNrweMxwkvAADRBC8AANEELwAA0QQvAADRBC8AANEELwAA0QQvAADRBC8AANEELwAA0UxagwaqE9RSJqNVJ4C11vp5U56jqvXztp7wVvXy+VnT650eTZtez+Q2GI8TXgAAogleAACiCV4AAKIJXgAAogleAACiCV4AAKIJXgAAogleAACiCV4AAKJd7nXjp4+eNL3e9a3NptcbfX+9LNvn0nqCWq8JW1XVSVzdJmythEwKKz5H6/el9fX+9KK27ou7t5re93DluOn1VlbaTkCs/m6MPpFt2X7vWxv98xt9f6054QUAIJrgBQAgmuAFACCa4AUAIJrgBQAgmuAFACCa4AUAIJrgBQAgmuAFACDapcevT972uHHrCR+jG30CSfX76DXppfV9TVCbrTp57OGt386znR/t5jf/0fR6oz/Hy+dnpXWt37/q+9L6vs0nsk1bT2SrqX5vp0fT0rrWE9mW7fe+F50zFie8AABEE7wAAEQTvAAARBO8AABEE7wAAEQTvAAARBO8AABEE7wAAEQTvAAAROs2aa3KRJj5LNtzPCxOLkqZoFbVa9Jar8lore9b1Xp/vSatVZnINp/WE9luFn/XUn7vR3+OKp2zGE54AQCIJngBAIgmeAEAiCZ4AQCIJngBAIgmeAEAiCZ4AQCIJngBAIgmeAEAiHa5141bT/hofb1e9x1dr+c1QY2VlfqEstEnsqWo/h21nsj21d1vSuuqE9l2J9ulda0nslUnG66s1H7Xqr+T/r8ths4ZixNeAACiCV4AAKIJXgAAogleAACiCV4AAKIJXgAAogleAACiCV4AAKIJXgAAonWbtNbask0Maa3XRBgT1FhZaT8ZzUS2sfT6uzSRbbY7tx+U1u0f7JXWVX/vmY/OmY8TXgAAogleAACiCV4AAKIJXgAAogleAACiCV4AAKIJXgAAogleAACiCV4AAKLFTFqrWrbJIlWtPxcT1FhZaT/J7OXzs3m286PvW30OLiYT2WZrPZGtyuS2+eic2ZzwAgAQTfACABBN8AIAEE3wAgAQTfACABBN8AIAEE3wAgAQTfACABBN8AIAEO3S49cnb3tv4l1Gn7iSMtGk+jmboJZt9aMPSuvqE51qqhPUWr8vy/a8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")),
+              icon: Some(String::from("data:image/png;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h0PSIxMDI0IiB2aWV3Qm94PSIwIDAgMTQ0MCAxMDI0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KPHJlY3Qgd2lkdGg9IjE0NDAiIGhlaWdodD0iMTAyNCIgZmlsbD0iYmxhY2siLz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZF8xM18yOCkiPgo8cmVjdCB4PSIzNjAiIHk9IjE1MiIgd2lkdGg9IjcyMCIgaGVpZ2h0PSI3MjAiIGZpbGw9InVybCgjcGF0dGVybjApIiBzaGFwZS1yZW5kZXJpbmc9ImNyaXNwRWRnZXMiLz4KPC9nPgo8ZGVmcz4KPGZpbHRlciBpZD0iZmlsdGVyMF9kXzEzXzI4IiB4PSIzMzEuODc1IiB5PSIxMjkuNSIgd2lkdGg9Ijc3Ni4yNSIgaGVpZ2h0PSI3NzYuMjUiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiIHJlc3VsdD0iaGFyZEFscGhhIi8+CjxmZU9mZnNldCBkeT0iNS42MjUiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTQuMDYyNSIvPgo8ZmVDb21wb3NpdGUgaW4yPSJoYXJkQWxwaGEiIG9wZXJhdG9yPSJvdXQiLz4KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuNSAwIi8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93XzEzXzI4Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iZWZmZWN0MV9kcm9wU2hhZG93XzEzXzI4IiByZXN1bHQ9InNoYXBlIi8+CjwvZmlsdGVyPgo8cGF0dGVybiBpZD0icGF0dGVybjAiIHBhdHRlcm5Db250ZW50VW5pdHM9Im9iamVjdEJvdW5kaW5nQm94IiB3aWR0aD0iMSIgaGVpZ2h0PSIxIj4KPHVzZSB4bGluazpocmVmPSIjaW1hZ2UwXzEzXzI4IiB0cmFuc2Zvcm09InNjYWxlKDAuMDAxOTUzMTIpIi8+CjwvcGF0dGVybj4KPGltYWdlIGlkPSJpbWFnZTBfMTNfMjgiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQWdBQUFBSUFBUU1BQUFET3RrYTVBQUFBQVhOU1IwSUIyY2tzZndBQUFBbHdTRmx6QUFBTEV3QUFDeE1CQUpxY0dBQUFBQVpRVEZSRkFBQUEvLy8vcGRtZjNRQUFBQUowVWs1VEFQOWJrU0sxQUFBTWhFbEVRVlI0bk8yY1M0N3JMQk9HalR4Z3lCSllDa3ZEMHIreExNVkw2R0VHcmZqcjJGenFCaFRPa2Y1SmFuQjAydUFIcUhweHpNM0wwcmZqMkFZNXZvQXY0QXY0QXI2QUwrQUwrQUsrZ0M5ZzJ2enhaNzhmM3Y4QndSM0pudmZ1TjBleHh5MUFxSURYbmZ2dEFlem5zd3JjcXNKNklOcy9xOENOS3BpRDJHTVM0Q2hnVmd1UkFvNjUrMWQyLzZRYldRdG0yOEJiTU5jR0ZvUFpPQWd0bUd0REtKNDdqdi9sLzg5b3FUYjcvVWpMRHRuVTk5dDZSL3JuTkgyWDlEWHlKeUNwUXY5b2l6WC9WWEUvRjBnRHduWUI0QldGV1ZEaDVEby81UVFQaWtzQU0rV0VBS0tlZ3dldkRRMVdOd1BzaEJKV21CZjg1OUIyYVFlYld3QmUzeDBDTEtzQVZyMFRJdFJNYlRlNjNET0RBbFlCWGl1bEZVbW1BcXpXaXc3RkMvMVg1OFdBbkFVQVFlbkZpQW9DQUtmem9zRk5CWUJWNThVVlN4Yi9YK05GaDFzS0FVSGxSWTl6UVlCVDllaUE2d2tCcXlvTXBOZVNQOFk5MnBCUzBCMUJFWWFWT0FvQm5DSU1qanc3RWNBcXd1QkpMUkhBS01JUWlGeXgxK0k0RERRTEJsQThOME5iaVFGdUdJYVYvdjVnZ0IyR3dkSWlNTUFNZjk4YzFScjdjeEJIVDkxTUFHRVV4MGd6RUlBZmhZRzFrUURzb0RzWjVtV1NmeDNFY1pRdWxJRE5EcFVXKzNGMFE2MkhmaHo5c0xjTmNvVGhpNVR0MXpFT256aHIzMHZqWjU3cENxR2ZxaWhqVUwvVHVxMjBpbDhlMy9PelUvejJkZk4wNmNtNnRReUtuKysxSjRTb2VJRXdQVWVyM29ZN21icndZcDFxZHB0WHJPTW9qUXk2b2JLcUYwblhCblNTZE1WNDFidncybTVvVUwyTm03YXJvMjVRMUE2MmNrRFJMa2M1cEFrdGdGR09MSDNMVmF0eVZPWmF3YkxLd1hFelg1Tk1yRmxUcHh6Zm14YkFhOGZHTFdjM3c4TUJjcmhqMHRIYThtWFljVVlPZU9XYWlPa21GOXpLa0pyV2ZBa3BUbTQ0S3p1MytVNWZmdnNiNFRJcHZUbTBLbUFyQTlZRUNJMEJhaDF5V2JtTitYSnNESzFzQWEreWxtMlplcEpmQWVxbzNzZ0FCeWV0aENyNkNwYTluSUp6emVFSUpZUUtscjNzcnhaZUUwWkNDYkdDb3dnSWw0K3YyVkFoQXdBSHNUTWs3TmxVS1FNQWV6SE9DTUF6bUNFZzFTOWNnSTBtcjZCbVRoS0tnVUljQUVRdFowQThaQ1ZaMERRUnNFSWxDMHB5QUxCS1NsdWhrZ1VsT2RBMEl3RXNCakFsZVF6Z1VzMmViUUdRY3lXcHV0UytCR0JTUklBb0FKSTQ4c0lBa3lLS2p0UVovSFZQV1ZtZzZRY0VCQUVRNmpOWlZCSUNlS0d6VU1BREo1c2hJUG1sQUhhY3ZDS0FFM3JUeDRDa2pRSWdTckVJWUlYZVJnRWswRzRFeVBJdUFCSW5ERmg1ZHpUcFVnRVFOM3NFTUJ5d1VnRHhVcUNBblFNMlBXRGhBTXNBRzBxUEZFRDdzMDFGVmdCdUpMa2FHY0F4QUs0akE5RCs3SkxiS3dBVlFidElZQURQQUNqSHlnQzBQL3QwUlFud0RCQVlBT1d3REVEN2MyNVVCYUFjamdBY0EwUUdPUG9BMnA5ellBRmdBOG1lQUt3RzhFQXRIQUd5Y0pTQWxUMFFCTUNPS2pnQUdOQlJzK0VaY2d4Z0R3UUo4UHdVOEl1U0I0RFNKZ0I0b1dUaVdkcGJQd2FVdU1KbGU1Uk1BUFNKSWdLMmt1d1VnQmNIUEVxeWYvOFo0TFZBQUE0RDR2bnZqZ0F2QW5oMkFGZGVVTWI3Nzk4QjRIY0VlQ0tBSndDUEFXZWJRWlozazNZQytPMEI2S0RodkhVQWVFS0F4VW82TDI0STRBZ2dZTUNLbFhSZVhBamdSUUEvRUdDd2txNHhKd0xZUG1EaGdOOCtJSXFBbXZzZEVnSTRDR0JIQUN6RmE1VVBBZFlCQUN2Sm4zZDJBUWNCWUNYNTB4OFVzR0hBQXdHd2tzSVpVZ1F3QTRCRmdIaUs2Z2JnVlFHL2ZZQ2hBQ3pGeTU4VThNQ0FEUUdRRk5POERnSXNBd0JTa3JuKzF3T3NEQUNWdEY1MW9ZQWRBeFlNQ0FDUTFyOHdJS29BUHhud21nWkFLYnBMRVQyQVpRQW9SWDlWaFFKK0VPQkZBRkJKL25JR0JvUUJBQ29wWFBmTkFRd0F4Q3ZJdHdCYkFpd0RRSDFJWndDVVl2SUZCdUNmSmdGUXBXamcvSTRlVUpXRTVuZjBnS3FrUE9YU0J6d3B3QlZBbmwzQkFJY0F2Z1g0WGVxQWpnSisrNEFxUlZmMU5BT29Vc3lqazBsQVZWSk9uQVJVSldYTjlRRS9EQkFyWUJjQUZnRkNFN0MvRXg4aTREVUFGQ2tHdUVGd0FsQ2tHSTdsRnFBb3lmL2VBeFFsdWFjR3NETkFtVVMxUHhKZ1JZRFlCUHkxM3p4a3dERUFrRmU5ZVFCNVU3c0JLRXE2Q3loS3VndndVNEJIQy9Cc0FNd1lRQWNOMHdBeWFKZ0hrRUZERjNCSUFLb2tCdGdHZ09VZkFjb3Q4d0FpeFhrQWtlSThnQ2hwSGtDVU5BK3cvd2J3R2dBT1lCc0dFQ2xXQUx5bkJ5QlNiQUJpRzBDVU5GOERvcVQvQitDOHBVanhCc0NmVjUvM0FYejhPZ25BU3JvQndFcTZBY0JLdWdGWS9oSGdjUjhRejh2N2ZjQjV6OEhlVVBRQWYxNW03MGg2QUZKU0E1Q2N0Y0hJRWNDTEFzZzlTK3VSUnFTSUFacG5JcEhpSFFDUzRoMEFVdEl0UVB3M2dQMCs0THhKSFBJb0FWQ0t0d0JRaXJjQVVFazlnUGlXOWpZeUV6TDNtdmRQQUZDS2ZjQXVBNkFVTVVEeHRyNnNPMUxTUE1BK2taTG1BZThCby84RUVINlJGT2NCRVUvSzlRRFN3UE12QW5oU2pnSkdJOWZGa0VtNVBvQ1BuYThzUUVrWU1CNThweXhWU2RPQWF4M21BOEMxbGwybE9BMjRscUtyRkhzQWFSWW5iVktvU3FLQTBUeFNtZ1dzU3NLQThVUlVtZ1dzU3BvRnBJMlU5d0VlN2hia2MrdGpRSUQ3RmZuc1BnWUlVNkpsTzJ0UkVnWU01MVNYS29la3BFbUF3VE1oOHdDTGZ0SFlJZzBEMEtueGV0U2lTQkVEOEtvdG4xdC8zMWVXSnc2K3pqU2NuSDluTHdza0IxL3BHZ01pWE9NNTJGcmJHSENRVFJWYkY4QVhhVXpOTEFOR3F6ejJLQzhRV1lwekFIQkNMa3R4QU5nd3dCOTRzUFhYWWd6QVMyV0dBUUlmZmxMQW93dUlmUGc1QnpqcWlGVUplQ0NBT2VxWU9Vc1JBUXdHaUd1dUdaQ2xTQUZiRHdCUHEyWXBEZ0E3QXZnRGhDa3BDUUhvd3JXMGRMN1h4Rk5KRkxEMEFCSDNHdzJBYngvWU1PQUhBZmoyQVFUQTU3YVRGTHNBc2dPaWJyTi9XMUlTQWJ3SUFHM2l3QWUvazVJUWdHL2lRQUNQQUtzQ1FQYWhoQVBPU01PUG8xUkFieWZNdVJ1b1B2YU5BT2h2cGJtOFhsTVZBTWNCNEtFYkpVQnZQOUtsdkpvYU9LQy9vWWtDL0JnZ2JPcDZkQUdLWFdFYnJOOFFzSFlCVmdMc0ZMQVJBRTZsZ1BIV09xaFVNd2FVaDZ3SVdCaUFQcFFGd084Y2dHK3hSR0dPRktEWW80a0FRUU1nMjB4Um1EMEY4RzNqYkovcURsUFo5a0pwbyt1ekEyQWJIUGxXVzdiWjl3RlQyUlpMdnRtWEFiWkpBTnZ3akZKWkgrVWJudnNBdHRGVkFxQUZObHJEU0FCOHp6YmROVTRBZ1FId0E0bnZXeWNGVUFEZnQwNjMzcE4wVHdEaTFuc0VJT2wwenpZSDBPTUhqUk1ZdGRQdkE4RE9rZ2VBZk1uZ3FvSmtlRjArZ3RFRExFTUFQVVd5ZFFHS1l5ZzBPUTRCNUNRTlRRNElJQi9GeWQrMUVwUmNsYlRsdnhnZ0lBQTdydVFJZ0pYd0I4aFRMeUxBSWtBUUFCa2FwYTdBQWZ4RVZmWkxsSlJjcGJpa1RLeUVjaXl0QWNEUmtZNmxvWjFYVE9ra090TEJPTFQzaXdzMTFhdzh0amdnN3o3ekRVQUEwUkVQQitiZTVNU3VrQUhQRE9BbDVHbzVVY2w0cGNGS2dPeFoyd0E0RUIzeGlHWUd0RDRxWmtGMFpFQUVSK3VFWTY0cmNLN1VsM0JuNERKSlN0cFFWZ3FvV3Q2RmRLUmtDWkRyRlVRWlhPQ3l1ME02NjVzOXd6NFBWQXZJVFpPUEsrZWo0SzJ2WWRnRHZNbEpBSnZURzRmT1RhbFo0OGgyRWJnWFhRQ2VJbUpYYUhKN2RXVlZGS3ZPcmZXZEEvWEhCYjBjcHFYaGZXNmhBWkQxSlFPbXJxdExhaldOV2N0WnZ1RmNhcVlGK1BnekZ2YlREMmw4L0NtUHpxZFdrUGtXb09rY0RuaklLVW9wdG9UWS9rQ0dPbHNiamF4ZFVaMlNPcTVxdWhkWkoxZ2ZmNW1uazZRclJxZWtUa09OU2dpaDQycnh4WUJhN0FTN2w2WXFKU2ppMlAwT2xQLzBRMXRlOTZtdk5xQ2JxQ25FS3VJWWVzMzgrSHRwcHZGeUFxM3hBbFJUMi9qVDFuNFpVZlBadTE0cnd6Q09nMi83K1UrLzNEZW80REpzSkhjUi83dnJac09DUkFBOEF6RTJZQ01BTzFKS3BHRWcrZDNJU1lGR2lRQllPalZQUzJETFNZTTRmL3dsejVXR0NRTllNak5EdzRBQmRoUkZ0TTRvQVB5NHYwZmlSWHdEVFJVc2tETG9YOE5uSHYxMExnTFFqKzVLWmtrZXRsQXgrdUZZaVJjUndJOGZlZGY0c2dXSWlvY3VYcXJFQUNPUDY0a0YzRTRJc0lvZ3NHK05RWUJYQkFGK0Vvd0JvaUlJcWFFUENVQlNtbmFnY2dEQUhwb2dYRjZFWis3TExWN2x3elJkSXdFaTdha05PMnU2Y3dEK2pIckh6b3dsV2hYZ0VMaG5CMndyT2Yrd2lYY1FDekJjYkd1RXdqeHNRd0dnaituM3pjS3k4TDU1M1F6Rk5lWDB3QUIwY1dRUjFCYk1KR3Y2OGdJeWJ3aHc2RjJBWi80UzRKckxVODZ4b0IyK2FLNTNWd0xTRE81UEJhUnA2VTBMQ0RWLy9sY3ZvNlVXK01xQUFLcWtNckRZOUFiZ1QxeXBMQmJDSDZDc01lbnZoNnYxMWJRcWVOc3FBZllKd0NJQnRobUEwSWFaRnFBTkE5bjBRVHp0d3hZSWJaaHJnUkNIZlJLQVRwdTliZlordUhIamJkcEhBYkNQWE1pcWNLTUN1QW8zS29ERWRLc0NZTFZhL3lnaTlsRUQzcGFlVEkrNzl5K0tRZGJRUHFqL0YvQUZmQUZmd0Jmd0JYd0JYOEFYY0J2d0g0OWl0RWJRR21HckFBQUFBRWxGVGtTdVFtQ0MiLz4KPC9kZWZzPgo8L3N2Zz4K")),
               spec: NFT_METADATA_SPEC.to_string(),
               reference: None,
               reference_hash: None,
@@ -167,119 +167,7 @@ impl Contract {
     }
   }
 
-  #[payable]
-  pub fn nft_mint(
-    &mut self,
-    _token_id: TokenId,
-    _token_owner_id: AccountId,
-    _token_metadata: TokenMetadata,
-  ) -> Token {
-    self.nft_mint_one()
-  }
-
-  #[payable]
-  pub fn nft_mint_one(&mut self) -> Token {
-    self.nft_mint_many(1)[0].clone()
-  }
-
-  #[payable]
-  pub fn nft_mint_many(&mut self, num: u16) -> Vec<Token> {
-    if let Some(limit) = self.sale.mint_rate_limit {
-      require!(num <= limit, "over mint limit");
-    }
-    let owner_id = &env::signer_account_id();
-    let num = self.assert_can_mint(owner_id, num);
-    let tokens = self.nft_mint_many_ungaurded(num, owner_id, false);
-    self.use_whitelist_allowance(owner_id, num);
-    tokens
-  }
-
-  fn nft_mint_many_ungaurded(
-    &mut self,
-    num: u16,
-    owner_id: &AccountId,
-    mint_for_free: bool,
-  ) -> Vec<Token> {
-    let initial_storage_usage = if mint_for_free {
-      0
-    } else {
-      env::storage_usage()
-    };
-
-    // Mint tokens
-    let tokens: Vec<Token> = (0..num)
-      .map(|_| self.draw_and_mint(owner_id.clone(), None))
-      .collect();
-
-    if !mint_for_free {
-      let storage_used = env::storage_usage() - initial_storage_usage;
-      if let Some(royalties) = &self.sale.initial_royalties {
-        // Keep enough funds to cover storage and split the rest as royalties
-        let storage_cost = env::storage_byte_cost() * storage_used as Balance;
-        let left_over_funds = env::attached_deposit() - storage_cost;
-        royalties.send_funds(left_over_funds, &self.tokens.owner_id);
-      } else {
-        // Keep enough funds to cover storage and send rest to contract owner
-        refund_deposit_to_account(storage_used, self.tokens.owner_id.clone());
-      }
-    }
-    // Emit mint event log
-    log_mint(owner_id, &tokens);
-    tokens
-  }
-
-  // Contract private methods
-
-  #[private]
-  #[payable]
-  pub fn on_send_with_callback(&mut self) {
-    if !is_promise_success(None) {
-      self.pending_tokens -= 1;
-      let amount = env::attached_deposit();
-      if amount > 0 {
-        refund(&env::signer_account_id(), amount);
-      }
-    }
-  }
-
-  #[payable]
-  #[private]
-  pub fn link_callback(&mut self, account_id: AccountId, mint_for_free: bool) -> Token {
-    if is_promise_success(None) {
-      self.pending_tokens -= 1;
-      self.nft_mint_many_ungaurded(1, &account_id, mint_for_free)[0].clone()
-    } else {
-      env::panic_str("Promise before Linkdrop callback failed");
-    }
-  }
-
   // Private methods
-  fn assert_deposit(&self, num: u16, account_id: &AccountId) {
-    require!(
-      env::attached_deposit() >= self.total_cost(num, account_id).0,
-      "Not enough attached deposit to buy"
-    );
-  }
-
-  fn assert_can_mint(&mut self, account_id: &AccountId, num: u16) -> u16 {
-    let mut num = num;
-    // Check quantity
-    // Owner can mint for free
-    if !self.is_owner(account_id) {
-      let allowance = match self.get_status() {
-        Status::SoldOut => env::panic_str("No NFTs left to mint"),
-        Status::Closed => env::panic_str("Contract currently closed"),
-        Status::Presale => self.get_whitelist_allowance(account_id).left(),
-        Status::Open => self.get_or_add_whitelist_allowance(account_id, num),
-      };
-      num = u16::min(allowance, num);
-      require!(num > 0, "Account has no more allowance left");
-    }
-    require!(self.tokens_left() >= num as u32, "No NFTs left to mint");
-    self.assert_deposit(num, account_id);
-    num
-  }
-
   fn assert_owner(&self) {
     require!(self.signer_is_owner(), "Method is private to owner")
   }
@@ -367,61 +255,5 @@ impl Contract {
       extra,        // anything extra the NFT wants to store on-chain. Can be stringified JSON.
       reference_hash: None, // Base64-encoded sha256 hash of JSON from reference field. Required if `reference` is included.
     }
-  }
-
-  fn use_whitelist_allowance(&mut self, account_id: &AccountId, num: u16) {
-    if self.has_allowance() && !self.is_owner(account_id) {
-      let mut allowance = self.get_whitelist_allowance(account_id);
-      allowance.use_num(num);
-      self.whitelist.insert(account_id, &allowance);
-    }
-  }
-
-  fn get_whitelist_allowance(&self, account_id: &AccountId) -> Allowance {
-    self
-      .whitelist
-      .get(account_id)
-      .unwrap_or_else(|| panic!("Account not on whitelist"))
-  }
-
-  fn get_or_add_whitelist_allowance(&mut self, account_id: &AccountId, num: u16) -> u16 {
-    // return num if allowance isn't set
-    self.sale.allowance.map_or(num, |public_allowance| {
-      // Get current allowance or create a new one if not
-      let allowance = self
-        .whitelist
-        .get(account_id)
-        .unwrap_or_else(|| Allowance::new(public_allowance))
-        .raise_max(public_allowance);
-      self.whitelist.insert(account_id, &allowance);
-      allowance.left()
-    })
-  }
-  fn has_allowance(&self) -> bool {
-    self.sale.allowance.is_some() || self.is_presale()
-  }
-
-  fn is_presale(&self) -> bool {
-    matches!(self.get_status(), Status::Presale)
-  }
-
-  fn get_status(&self) -> Status {
-    if self.tokens_left() == 0 {
-      return Status::SoldOut;
-    }
-    let current_time = current_time_ms();
-    match (self.sale.presale_start, self.sale.public_sale_start) {
-      (_, Some(public)) if public < current_time => Status::Open,
-      (Some(pre), _) if pre < current_time => Status::Presale,
-      (_, _) => Status::Closed,
-    }
-  }
-
-  fn price(&self) -> u128 {
-    match self.get_status() {
-      Status::Presale | Status::Closed => self.sale.presale_price.unwrap_or(self.sale.price),
-      Status::Open | Status::SoldOut => self.sale.price,
-    }
-    .into()
   }
 }
